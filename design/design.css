@@ -2,7 +2,11 @@ body{
     background: teal;
 }
 #container{
-    background-color: gray;
+    border: 2px solid gray;
     width: 360px;
     margin: 0 auto;
+}/*for completed class*/
+.completed{
+    text-decoration: line-through;
+    color: gray;
 }
